@@ -1,0 +1,12 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 10 Sep 2025 01:33:27 at https://hostelgirl.info/sex2 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://hostelgirl.info/sex2 -O1 "C:\My Web Sites\sweetmeet_dating" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:33:36	Error: 	"Not Found" (404) at link https://hostelgirl.info/whtsap/js/jquery-3.7.1.min.js (from https://hostelgirl.info/recharge_me.php?web=sex2)
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 seconds : 53 links scanned, 51 files written (14639314 bytes overall) [13481127 bytes received at 842570 bytes/sec], 1783112 bytes transferred using HTTP compression in 24 files, ratio 33%, 8.8 requests per connection
+(1 errors, 0 warnings, 0 messages)

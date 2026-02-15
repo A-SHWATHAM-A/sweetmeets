@@ -1,0 +1,64 @@
+[10-Aug-2025 20:39:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[10-Aug-2025 20:39:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[10-Aug-2025 20:39:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[10-Aug-2025 20:40:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[10-Aug-2025 20:40:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[10-Aug-2025 20:40:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[10-Aug-2025 20:41:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[10-Aug-2025 20:44:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'shubham'@'localhost' to database 'hammerofthor_data' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:14
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(14): mysqli_connect()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 14
+[11-Aug-2025 08:12:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '8899999989' for key 'phone' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:27
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 27
+[11-Aug-2025 08:14:07 UTC] PHP Warning:  Undefined array key "name" in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 22
+[11-Aug-2025 08:14:07 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 22
+[11-Aug-2025 08:14:07 UTC] PHP Warning:  Undefined array key "mobile" in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 23
+[11-Aug-2025 08:14:07 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 23
+[11-Aug-2025 08:15:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '8899999911' for key 'phone' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:27
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 27
+[11-Aug-2025 15:51:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '9898989898' for key 'phone' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:27
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 27
+[11-Aug-2025 15:52:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '9898989898' for key 'phone' in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php:27
+Stack trace:
+#0 /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/ipsifqqylsns/public_html/powerfulformula.in/contactus_sucess.php on line 27

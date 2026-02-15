@@ -1,0 +1,224 @@
+Uri: https://a.exoclick.com/tag_gen.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\tag_gen.js
+Content Type: application/javascript
+
+Uri: https://fastrr-boost-ui.pickrr.com/assets/js/channels/shopify.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\assets\js\channels\shopify.js
+Content Type: application/javascript
+
+Uri: https://fastrr-boost-ui.pickrr.com/assets/styles/shopify.css
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\assets\styles\shopify.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\s\opensans\v43\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf
+Content Type: font/ttf
+
+Uri: https://horsefiretablet.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js
+Content Type: application/javascript
+
+Uri: https://horsefiretablet.com/hfckflip/?krt=WVy5rTAJX2Pbf5sak4Npimy0b299taV_NMmn49wdeTErWWhnEuSBUIH2ORRbGUA2HV0GtmAfRb47kByHuIrSochzgmFChrQwI9I3duw20ua_AlN3VgMtEqhIpGA10sw_gUIDRUi
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\hfckflip\index.htm
+Content Type: text/html
+
+Uri: https://horsefiretablet.com/main/hfck_images/03.webp
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\main\hfck_images\03.webp
+Content Type: image/webp
+
+Uri: https://horsefiretablet.com/_next/static/chunks/10344-fed315e45b2d0f55.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\10344-fed315e45b2d0f55.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/24938-1a672b10433026a4.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\24938-1a672b10433026a4.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/27477-9440698e5af144d2.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\27477-9440698e5af144d2.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/81749-2bb638ba8dabb7b0.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\81749-2bb638ba8dabb7b0.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/85687-61c6e751b7d1effc.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\85687-61c6e751b7d1effc.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/92173-e835634e9ff61ba2.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\92173-e835634e9ff61ba2.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/93046-0a150b138e09a7a9.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\93046-0a150b138e09a7a9.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/app/hfckflip/page-0b07b8b5fb89de12.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\app\hfckflip\page-0b07b8b5fb89de12.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/app/layout-7af8a3cd9f72c978.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\app\layout-7af8a3cd9f72c978.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/fd9d1056-2d4b956bc387a7df.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\fd9d1056-2d4b956bc387a7df.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/main-app-47df620986467a4a.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\main-app-47df620986467a4a.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\polyfills-c67a75d1b6f99dc8.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/chunks/webpack-df0819e963df6f82.js
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\chunks\webpack-df0819e963df6f82.js
+Content Type: text/javascript
+
+Uri: https://horsefiretablet.com/_next/static/css/af5776c171927dfd.css
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\_next\static\css\af5776c171927dfd.css
+Content Type: text/css
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/0435fb23-33a1-4838-cb26-417ececd9500/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\0435fb23-33a1-4838-cb26-417ececd9500\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/047beca2-523a-4dd5-af7a-e43b0ba48f00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\047beca2-523a-4dd5-af7a-e43b0ba48f00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/0cf31be1-9853-4620-43dc-7d8d34959400/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\0cf31be1-9853-4620-43dc-7d8d34959400\public
+Content Type: image/jpeg
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/134ac53b-10f8-4fe3-479e-086d413f3400/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\134ac53b-10f8-4fe3-479e-086d413f3400\public
+Content Type: image/jpeg
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/1369a0a5-d191-4392-bf47-5c170ecb8600/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\1369a0a5-d191-4392-bf47-5c170ecb8600\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/14fc20d2-7eee-4d3c-5b5b-96bef54a6e00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\14fc20d2-7eee-4d3c-5b5b-96bef54a6e00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/19a5bce5-70c9-4b7b-b85d-285c14984500/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\19a5bce5-70c9-4b7b-b85d-285c14984500\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/30df694e-2a8a-423e-0bbc-e76cb744aa00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\30df694e-2a8a-423e-0bbc-e76cb744aa00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/35ebe6a7-812f-476e-6159-92e6852b6900/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\35ebe6a7-812f-476e-6159-92e6852b6900\public
+Content Type: image/jpeg
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/37540407-db41-4792-7584-e86e53ee0b00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\37540407-db41-4792-7584-e86e53ee0b00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/3edacd08-1afb-49b1-9aba-2cdda7681400/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\3edacd08-1afb-49b1-9aba-2cdda7681400\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/42aa7add-b746-40be-9814-b2fead7e7c00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\42aa7add-b746-40be-9814-b2fead7e7c00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/458c72e4-2e47-43db-6ebb-eb1758d07900/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\458c72e4-2e47-43db-6ebb-eb1758d07900\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/57862730-99be-4427-3e6b-1ce868696a00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\57862730-99be-4427-3e6b-1ce868696a00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/6030dc2e-b710-4e30-d9d3-aa32ff1fb400/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\6030dc2e-b710-4e30-d9d3-aa32ff1fb400\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/6c82bc69-6f77-4da8-bc72-b75ec928a400/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\6c82bc69-6f77-4da8-bc72-b75ec928a400\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/760b3d2e-9473-49b5-d77b-c2fb157bf300/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\760b3d2e-9473-49b5-d77b-c2fb157bf300\public
+Content Type: image/jpeg
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/8a5b97ca-f3f1-47e3-7e58-7b0b44819400/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\8a5b97ca-f3f1-47e3-7e58-7b0b44819400\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/8b30f570-0493-4cec-3b5c-c24b5ddb9100/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\8b30f570-0493-4cec-3b5c-c24b5ddb9100\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/8e2fc363-dbca-49d8-a6d1-cfeee4612600/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\8e2fc363-dbca-49d8-a6d1-cfeee4612600\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/9b630eb5-2ca6-44f4-5d28-d95a6cb1d800/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\9b630eb5-2ca6-44f4-5d28-d95a6cb1d800\public
+Content Type: image/gif
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/a151ce1b-6321-4327-01c6-f6e72a537e00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\a151ce1b-6321-4327-01c6-f6e72a537e00\public
+Content Type: image/jpeg
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/a6a74ee7-ebbc-4c79-b732-9d02a1726b00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\a6a74ee7-ebbc-4c79-b732-9d02a1726b00\public
+Content Type: image/jpeg
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/ac5c3059-7cff-43cf-8c39-08a9641e2800/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\ac5c3059-7cff-43cf-8c39-08a9641e2800\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/b99acc99-acce-49ca-a1af-861cf3210500/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\b99acc99-acce-49ca-a1af-861cf3210500\public
+Content Type: image/jpeg
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/d6864046-cca9-417f-d247-ad0766062c00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\d6864046-cca9-417f-d247-ad0766062c00\public
+Content Type: image/svg+xml
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/d6b53864-0097-4cde-fa30-9723cc268600/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\d6b53864-0097-4cde-fa30-9723cc268600\public
+Content Type: image/gif
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/d865c07e-2784-4b1d-b16c-ad0c11464d00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\d865c07e-2784-4b1d-b16c-ad0c11464d00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/de8d8b69-318e-4abb-af97-9c3b6e8dc800/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\de8d8b69-318e-4abb-af97-9c3b6e8dc800\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/ec133c1b-bce8-4fa2-d5b4-6a9bf9bf5400/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\ec133c1b-bce8-4fa2-d5b4-6a9bf9bf5400\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/ef0f259e-9952-49ed-286f-b026b1175e00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\ef0f259e-9952-49ed-286f-b026b1175e00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/f1f80f23-b59a-485c-108d-afbe557e7f00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\f1f80f23-b59a-485c-108d-afbe557e7f00\public
+Content Type: image/png
+
+Uri: https://imagedelivery.net/aacnHGAqlUDhaplA3bnkbA/fb7965f8-770e-4d1c-f0f2-ec189b4a8b00/public
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\aacnHGAqlUDhaplA3bnkbA\fb7965f8-770e-4d1c-f0f2-ec189b4a8b00\public
+Content Type: image/png
+
+Uri: https://tsyndicate.com/api/v1/retargeting/set/6c4f0005-359d-47e8-892b-3c6003fb220e
+File Name: C:\Downloaded Web Sites\horsefiretablet.com\api\v1\retargeting\set\6c4f0005-359d-47e8-892b-3c6003fb220e
+Content Type: image/gif
+

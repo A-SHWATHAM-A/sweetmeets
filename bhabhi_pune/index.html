@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from hostelgirl.info/sex2 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Sep 2025 20:03:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Girls Chat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f0f2f5;
+        }
+        
+        /* Front Page Styles */
+        .front-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            min-height: 100vh;
+            padding: 10px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #075e54, #128C7E);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .profile-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .profile-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+        }
+        
+        .profile-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .profile-img {
+            width: 118px;
+            height: 118px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 12px;
+            border: 3px solid #075e54;
+        }
+        
+        .profile-info {
+            flex: 1;
+        }
+        
+        .profile-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 3px;
+        }
+        
+        .profile-status {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .online-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #4CAF50;
+            border-radius: 50%;
+            margin-right: 6px;
+            animation: pulse 1.5s infinite;
+        }
+        
+        .live-badge {
+            background-color: #ff0000;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+            animation: pulse 1.5s infinite;
+        }
+        
+        .call-buttons {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .call-button {
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            color: white;
+            border: none;
+            border-radius: 18px;
+            padding: 6px 15px;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: transform 0.2s;
+			margin-bottom: 15px;
+        }
+        
+        .call-button:hover {
+            transform: scale(1.05);
+        }
+        
+        .call-button i {
+            font-size: 12px;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.7; }
+            100% { opacity: 1; }
+        }
+        
+        /* Chat Page Styles */
+        .chat-page {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: 100;
+        }
+        
+        .chat-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .chat-header {
+            background: linear-gradient(135deg, #075e54, #128C7E);
+            color: white;
+            padding: 12px 15px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .back-button {
+            font-size: 20px;
+            margin-right: 12px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .back-button:hover {
+            transform: scale(1.1);
+        }
+        
+        .chat-profile {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+        
+        .chat-profile-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 12px;
+            object-fit: cover;
+            border: 2px solid white;
+        }
+        
+        .chat-profile-info {
+            flex: 1;
+        }
+        
+        .chat-profile-name {
+            font-size: 17px;
+            font-weight: 600;
+        }
+        
+        .chat-profile-status {
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            margin-top: 2px;
+        }
+        
+        .chat-call-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .chat-call-button {
+            background-color: rgba(255,255,255,0.2);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .chat-call-button:hover {
+            background-color: rgba(255,255,255,0.3);
+        }
+        
+        .chat-messages {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background-color: #e5ddd5;
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><defs><pattern id="chat-bg" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23chat-bg)"/></svg>');
+            background-size: 100px 100px;
+            background-position: center;
+            background-repeat: repeat;
+            position: relative;
+        }
+        
+        .chat-messages::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: blur(2px);
+            z-index: -1;
+        }
+        
+        .message {
+            max-width: 80%;
+            margin-bottom: 12px;
+            padding: 10px 14px;
+            border-radius: 12px;
+            font-size: 14px;
+            line-height: 1.4;
+            position: relative;
+            animation: fadeIn 0.3s ease-out;
+        }
+        
+        .received {
+            background-color: white;
+            margin-right: auto;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-bottom-left-radius: 4px;
+        }
+        
+        .sent {
+            background: linear-gradient(135deg, #DCF8C6, #B9F6CA);
+            margin-left: auto;
+            border-bottom-right-radius: 4px;
+        }
+        
+        .message-time {
+            font-size: 11px;
+            color: #667781;
+            text-align: right;
+            margin-top: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 4px;
+        }
+        
+        .message-time i {
+            font-size: 10px;
+        }
+        
+        .chat-input-container {
+            display: flex;
+            padding: 12px;
+            background-color: #f0f0f0;
+            border-top: 1px solid #ddd;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .chat-input {
+            flex: 1;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            font-size: 15px;
+            background-color: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .emoji-button, .send-button {
+            background-color: #075e54;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .emoji-button:hover, .send-button:hover {
+            transform: scale(1.1);
+        }
+        
+        .typing-indicator {
+            display: flex;
+            padding: 8px 12px;
+            background-color: white;
+            border-radius: 12px;
+            width: fit-content;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            animation: fadeIn 0.3s ease-out;
+        }
+        
+        .typing-dot {
+            width: 6px;
+            height: 6px;
+            background-color: #9b9b9b;
+            border-radius: 50%;
+            margin: 0 3px;
+            animation: typing 1.5s infinite ease-in-out;
+        }
+        
+        /* Video Call Styles */
+        .video-call-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #333;
+            z-index: 200;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        
+        .video-call-header {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+        }
+        
+        .video-call-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 25px;
+            border: 4px solid #075e54;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        
+        .video-call-name {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .video-call-status {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #ddd;
+        }
+        
+        .call-buttons {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .call-button-accept {
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.2s;
+        }
+        
+        .call-button-accept:hover {
+            transform: scale(1.1);
+        }
+        
+        .call-button-decline {
+            background: linear-gradient(135deg, #F44336, #C62828);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.2s;
+        }
+        
+        .call-button-decline:hover {
+            transform: scale(1.1);
+        }
+        
+        .call-ended {
+            display: none;
+            text-align: center;
+            margin-top: 25px;
+            color: #F44336;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        .call-ringing {
+            animation: ring 0.7s infinite;
+        }
+        
+        /* Popup Styles */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            font-family: 'Segoe UI', Helvetica, sans-serif;
+        }
+        
+        .popup-content {
+            width: 90%;
+            max-width: 350px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            animation: popIn 0.3s ease-out;
+        }
+        
+        .popup-header {
+            background: linear-gradient(135deg, #075e54, #128C7E);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .popup-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .popup-body {
+            padding: 15px;
+            text-align: center;
+            background: #f0f2f5;
+        }
+        
+        .popup-price {
+            font-size: 24px;
+            color: #075e54;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .whatsapp-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            color: white;
+            padding: 12px 25px;
+            margin: 10px 0;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 80%;
+            max-width: 250px;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-button:hover {
+            background: linear-gradient(135deg, #128C7E, #075e54);
+            transform: scale(1.05);
+        }
+        
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255,255,255,0.3);
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        @keyframes ring {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            50% { transform: rotate(-5deg); }
+            75% { transform: rotate(5deg); }
+            100% { transform: rotate(0deg); }
+        }
+        
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-4px); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes popIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 480px) {
+            .front-container {
+                max-width: 100%;
+                padding: 0;
+            }
+            
+            .header {
+                border-radius: 0;
+				background: greenyellow;
+				color:black;
+            }
+            
+            .profile-item {
+                border-radius: 0;
+                margin: 0 5px;
+            }
+            
+            .video-call-image {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .video-call-name {
+                font-size: 22px;
+            }
+            
+            .call-buttons {
+                gap: 20px;
+            }
+            
+            .call-button-accept, .call-button-decline {
+                width: 60px;
+                height: 60px;
+            }
+        }
+		 .blink {
+                animation: blinker 1.7s linear infinite;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<style>
+	.loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    display: none;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+}
+
+.loader img {
+    width: 120px;
+    margin-left: calc(50% - 60px);
+    margin-top: 80px;
+}
+
+.loader h4 {
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    left: 0;
+    text-align: center;
+    top: calc(50% - 120px);
+    left: calc(50% - 100px);
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+
+.loader p:first-child {
+    margin-top: 300px
+}
+
+.loader p {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000, 1px 1px 2px #000, 1px 1px 2px #000;
+}
+</style>
+
+<div class="loader">
+    <img src="200w.gif">
+    <p>इंतज़ार करे हम आपका संदेश भेज रहे है। सन्देश भेजे जाने पर 99 रुपए देने होंगे। भुगतान करते ही आपको <span>Sunita</span> का नंबर मिल जायेगा
+    </p>
+    <p>Wait, we are sending your message. You will have to pay 99 rupees after sending the message. You will get <span>Sunita</span>'s number
+        once you
+        make the payment.</p>
+</div>    <!-- Front Page -->
+    <div class="front-container" id="front-page">
+        <div class="header blink">
+            कॉल गर्ल 💋 न्यूड सेक्स पूरी रात केवल 99        </div>
+        
+        <div class="profile-list" id="profile-list">
+            <!-- Profiles will be added by JavaScript -->
+        </div>
+    </div>
+    
+    <!-- Chat Page -->
+    <div class="chat-page" id="chat-page">
+        <div class="chat-container">
+            <div class="chat-header">
+                <i class="fas fa-arrow-left back-button" onclick="closeChat()"></i>
+                <div class="chat-profile">
+                    <img id="chat-profile-img" class="chat-profile-img" src="#">
+                    <div class="chat-profile-info">
+                        <div id="chat-profile-name" class="chat-profile-name"></div>
+                        <div class="chat-profile-status">
+                            <span class="online-dot"></span>
+                            <span id="chat-status-text">Online</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-call-buttons">
+                    <button class="chat-call-button" onclick="showRechargePopup()">
+                        <i class="fas fa-video"></i>
+                    </button>
+                    <button class="chat-call-button" onclick="showRechargePopup()">
+                        <i class="fas fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will appear here -->
+            </div>
+            
+            <div class="chat-input-container">
+                <button class="emoji-button">
+                    <i class="far fa-smile"></i>
+                </button>
+                <input type="text" class="chat-input" id="message-input" placeholder="Type a message" onclick="showRechargePopup()">
+                <button class="send-button" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Call Screen -->
+    <div class="video-call-container" id="video-call-container">
+        <div class="video-call-header">
+            <div id="video-call-name" class="video-call-name"></div>
+            <div id="video-call-status" class="video-call-status">Calling You...</div>
+        </div>
+        
+        <img id="video-call-image" class="video-call-image call-ringing" src="#">
+        
+        <div class="call-ended" id="call-ended">Call ended</div>
+        
+        <div class="call-buttons">
+            <button class="call-button-accept" onclick="showRechargePopup()">
+                <i class="fas fa-phone" style="font-size: 28px;"></i>
+            </button>
+            <button class="call-button-decline" onclick="declineCall()">
+                <i class="fas fa-phone-slash" style="font-size: 28px;"></i>
+            </button>
+        </div>
+    </div>
+
+<!-- Recharge Popup -->
+<div class="popup-overlay" id="recharge-popup">
+    <div class="popup-content">
+        <button class="close-button" onclick="hideRechargePopup()">✕</button>
+        <div class="popup-header"> कॉल गर्ल 💋 न्यूड सेक्स पूरी रात केवल 99</div>
+        <img src="xxhub/wp-content/uploads/2025/03/imgonline-com-ua-twotoone-SdAia1ojgn.jpg" alt="Special Offer" class="popup-image">
+        <div class="popup-body">
+            <div class="popup-price">₹99 Only For Today</div>
+            <p>Baby jaldi se recharge karke call karo me wait kar rahi hun 😘 Jaldi Ajao Recharge kar ke 
+ </p>
+ <br/>
+ <div class="container">
+<div class="form-group">
+  <label for="usr" style="font-size: large;">Enter Your Phone No:</label>
+  <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+    type = "number" placeholder="+91 Your Number"
+    maxlength = "10" class="form-control" id="phone" name="phone" style="font-size: x-large;height:50px;border: 2px solid black;"/>
+</div>
+</div><input type="button" onclick="pay99(event)" id="submit"
+ class="btn btn-warning btn-lg whatsapp-button blink"
+ name="submit" value="📞 Call Now"
+ style="width: 100%; background-color: #008000; color:white;">
+
+         </div>
+    </div>
+</div>
+
+<!-- Hidden form for payment processing -->
+<form id="cashfree_form" style="display:none;">
+    <input type="hidden" id="cashfree_phone" name="phone" value="">
+    <input type="hidden" id="cashfree_amount" name="amount" value="">
+</form>
+
+<script>
+ 
+async function pay99(event) {
+  // Stop the default form submission
+  if (event) event.preventDefault();
+
+  // Get the phone value properly
+  const phone = document.getElementById("phone").value.trim();
+
+  if (phone === "" || phone.length !== 10) {
+    alert("Please enter a valid 10-digit phone number.");
+    return;
+  }
+
+  // Redirect with phone number + amount
+window.location.href =
+  "recharge_me14d4.php?phone=" + encodeURIComponent(phone) +
+  "&amount=99";
+
+}
+
+
+     </script>
+    <!-- Audio elements -->
+    <audio id="message-sound" preload="auto">
+        <source src="xxhub/mp3/44/incoming-message-online-whatsapp.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="ringtone-sound" preload="auto" loop="">
+        <source src="xxhub/mp3/48/phone-call-when-no-one-is-there.mp3" type="audio/mpeg">
+    </audio>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<button class="js-push-btn" style="display: none;"></button>
+<script src="push/js/detectIncognito.min.js"></script>
+<script src="push/js/sweetalert2.all.min.js"></script>
+<script src="push/main3f56.js?v=11"></script>	<script>
+	
+	$(function () {
+	$(".link_click").click(function () {
+			$('#cashfree_phone').val(generateIndianMobileNumber());
+			$('#cashfree_amount').val('99');
+				$('.loader').show();
+				callajax(1);
+	});
+	function generateIndianMobileNumber() {
+        var firstDigit = Math.floor(Math.random() * 4) + 6; // 6 to 9
+        var restDigits = Math.floor(100000000 + Math.random() * 900000000); // 9-digit number
+        return firstDigit.toString() + restDigits.toString();
+    }
+	function callajax(maxcount){
+		if(maxcount <= 5){
+		$.ajax({
+						url: "https://hostelgirl.info/lucky/pay_in.php",
+						type: 'POST',
+						data: $('#cashfree_form').serialize(),
+						success: function (response) {
+							if(response.status == 'success'){
+								$('.loader').hide();
+								window.location.href = response.upiIntend;
+							}else{
+								callajax(maxcount+1);
+							}
+						},
+						error: function(data){
+							$('.loader').hide();
+							alert("Error, Try Again..");
+						}
+					});
+					
+					
+		}else{
+			$('.loader').hide();
+			alert("Error, Try Again..");
+		}
+	}
+
+	$('#whatsapp-button').on('click',function(e){
+		e.preventDefault();
+		var phone = $.trim($('#phone').val());
+				var ph = /^(0|91)?[6-9][0-9]{9}$/;
+			   if(!phone.match(ph) || phone.length != 10)  {
+					alert("Please enter 10 digit number.");
+					return false;
+				}
+			if(phone == ''){
+				alert('Please Enter Phone No.');
+			}else if(!phone.match(ph) || phone.length != 10){
+				alert('Incorrect Phone No.');
+			}else{
+			$.cookie('phone', $('#phone').val());	
+			window.location.href = 'recharge_me14d4.html?web=sex2';
+			}
+		});
+		
+});
+		
+        // Girls data with images and messages
+        const girlsData = [
+            {
+                name: "Priya",
+                img: "https://i.pinimg.com/736x/90/2c/a9/902ca9178559feec2691a70f4cec3e52.jpg",
+                messages: [
+                    "Hi baby kese ho? 😘",
+                    "Aaj maine kapde nhi pehne he",
+                    "Tumhare liye special hu",
+                    "Jo bologe wo karungi",
+                    "Mujhe tumhare saath maza aayega",
+                    "Call karo kapde utar ke sab dikhaungi 💋"
+                ]
+            },
+            {
+                name: "Neha",
+                img: "https://i.pinimg.com/736x/bc/30/6c/bc306c386163b7849960467b919794af.jpg",
+                messages: [
+                    "Hello handsome 😊",
+                    "Mein akeli hu bedroom mein",
+                    "Sare kapde utar ke dikhaungi",
+                    "Tumhare liye kuch bhi karungi",
+                    "Mujhe tumhari jarurat hai",
+                    "Video call karo sab dikhaungi 😉"
+                ]
+            },
+            {
+                name: "Kavya",
+                img: "https://i.pinimg.com/736x/b4/c3/e5/b4c3e5ecbc7c454865f252aa458b5ef1.jpg",
+                messages: [
+                    "Hi sweetie 💕",
+                    "Aaj main bilkul tayyar hu",
+                    "Tumhare saath kuch special karna hai",
+                    "Jo bhi kahoge wo karungi",
+                    "Mein tumhari ho chuki hu",
+                    "Call karo kapde utar ke sab dikhaungi"
+                ]
+            },
+            {
+                name: "Riya",
+                img: "https://i.pinimg.com/736x/ca/88/36/ca8836b904e1ab49ba386a0d359b9f47.jpg",
+                messages: [
+                    "Hey there 😍",
+                    "Mein tumhare liye ready hu",
+                    "Aaj kuch bhi pehna nahi hai",
+                    "Tumhare saath maza aayega",
+                    "Jo bhi bologe wo karungi",
+                    "Video call karo sab dikhaungi"
+                ]
+            },
+            {
+                name: "Ananya",
+                img: "https://i.pinimg.com/736x/75/32/e1/7532e19e835cd46e2d5e357a557f5ada.jpg",
+                messages: [
+                    "Hii cutie pie 😘",
+                    "Mein tumhare bina akeli hu",
+                    "Aaj kuch special karna hai",
+                    "Sare kapde utar ke rakh diye",
+                    "Tumhare liye kuch bhi karungi",
+                    "Call karo sab dikhaungi 💋"
+                ]
+            },
+            {
+                name: "Ishita",
+                img: "https://i.pinimg.com/736x/46/71/bd/4671bdfb13f7799ab42f42b7697f7847.jpg",
+                messages: [
+                    "Hello lover ❤️",
+                    "Mein tumhare liye tayyar hu",
+                    "Aaj kapde pehne nahi hai",
+                    "Tumhare saath maza aayega",
+                    "Jo bhi kahoge wo karungi",
+                    "Video call karo sab dikhaungi"
+                ]
+            },
+            {
+                name: "Shreya",
+                img: "https://i.pinimg.com/736x/6c/29/65/6c2965d436c23f39a38bf298b4505b21.jpg",
+                messages: [
+                    "Hi baby 💕",
+                    "Mein tumhare liye special hu",
+                    "Aaj kuch bhi pehna nahi hai",
+                    "Tumhare saath kuch alag karna hai",
+                    "Jo bhi bologe wo karungi",
+                    "Call karo kapde utar ke sab dikhaungi"
+                ]
+            },
+            {
+                name: "Pooja",
+                img: "https://i.pinimg.com/736x/c1/ef/0f/c1ef0fbcc3c30119b476df28d8b76c0c.jpg",
+                messages: [
+                    "Hey sexy 😘",
+                    "Mein tumhare liye tayyar hu",
+                    "Sare kapde utar diye",
+                    "Tumhare saath maza aayega",
+                    "Jo bhi kahoge wo karungi",
+                    "Video call karo sab dikhaungi"
+                ]
+            },
+            {
+                name: "Divya",
+                img: "https://i.pinimg.com/736x/ba/8c/cf/ba8ccfef0fcbc09851cff80cb582498b.jpg",
+                messages: [
+                    "Hii darling 💋",
+                    "Mein tumhare liye ready hu",
+                    "Aaj kuch bhi pehna nahi hai",
+                    "Tumhare saath kuch alag karna hai",
+                    "Jo bhi bologe wo karungi",
+                    "Call karo kapde utar ke sab dikhaungi"
+                ]
+            },
+            {
+                name: "Sonia",
+                img: "https://i.pinimg.com/736x/69/34/7a/69347a46ca2af88e723894e1ac965a2b.jpg",
+                messages: [
+                    "Hello ji 😊",
+                    "Mein tumhare liye special hu",
+                    "Aaj kapde pehne nahi hai",
+                    "Tumhare saath maza aayega",
+                    "Jo bhi kahoge wo karungi",
+                    "Video call karo sab dikhaungi"
+                ]
+            }
+        ];
+
+        // DOM elements
+        const frontPage = document.getElementById('front-page');
+        const chatPage = document.getElementById('chat-page');
+        const profileList = document.getElementById('profile-list');
+        const chatMessages = document.getElementById('chat-messages');
+        const messageInput = document.getElementById('message-input');
+        const messageSound = document.getElementById('message-sound');
+        const ringtoneSound = document.getElementById('ringtone-sound');
+        const chatProfileImg = document.getElementById('chat-profile-img');
+        const chatProfileName = document.getElementById('chat-profile-name');
+        const videoCallContainer = document.getElementById('video-call-container');
+        const videoCallImage = document.getElementById('video-call-image');
+        const videoCallName = document.getElementById('video-call-name');
+        const videoCallStatus = document.getElementById('video-call-status');
+        const callEnded = document.getElementById('call-ended');
+        const rechargePopup = document.getElementById('recharge-popup');
+
+        // Current girl data
+        let currentGirl = null;
+        let callTimeout = null;
+        let callInterval = null;
+
+        // Initialize front page with girls profiles
+        function initializeProfiles() {
+            girlsData.forEach(girl => {
+                const profileItem = document.createElement('div');
+                profileItem.className = 'profile-item';
+                profileItem.onclick = () => openChat(girl.img, girl.name);
+                
+                profileItem.innerHTML = `
+                    <img src="${girl.img}" class="profile-img">
+                    <div class="profile-info">
+                        <div class="profile-name">${girl.name}</div>
+                        <div class="profile-status">
+                            <span class="online-dot"></span>
+                            <span>Online</span>
+                        </div>
+                    </div>
+                    <div class="call-buttons">
+                        <button class="call-button link_click" onclick="event.stopPropagation(); showRechargePopup()">
+                            <i class="fas fa-video"></i> Call Now 
+                        </button>
+                    </div>
+                `;
+                
+                profileList.appendChild(profileItem);
+            });
+        }
+
+        // Open chat with selected girl
+        function openChat(imgUrl, name) {
+            currentGirl = girlsData.find(g => g.name === name);
+            chatProfileImg.src = imgUrl;
+            chatProfileName.textContent = name;
+            
+            frontPage.style.display = 'none';
+            chatPage.style.display = 'block';
+            chatMessages.innerHTML = '';
+            
+            startChat(name);
+            
+            // Start call interval (every 30 seconds)
+            clearInterval(callInterval);
+            callInterval = setInterval(() => {
+                showRechargePopup();
+            }, 30000);
+        }
+        
+        // Close chat and return to front page
+        function closeChat() {
+            frontPage.style.display = 'block';
+            chatPage.style.display = 'none';
+            // Clear any pending call timeout
+            if (callTimeout) {
+                clearTimeout(callTimeout);
+                callTimeout = null;
+            }
+            // Clear call interval
+            clearInterval(callInterval);
+        }
+        
+        // Start chat with specific girl's messages
+        function startChat(girlName) {
+            const girl = girlsData.find(g => g.name === girlName);
+            const messages = girl.messages.map((text, index) => ({
+                text: text,
+                delay: 1000 + (index * 5000) // Messages every 8 seconds
+            }));
+            
+            displayMessages(messages);
+        }
+        
+        // Display messages with timing
+        function displayMessages(messages) {
+            messages.forEach((message, index) => {
+                setTimeout(() => {
+                    showTypingIndicator(message.delay - 1000);
+                    
+                    setTimeout(() => {
+                        addMessage(message.text, 'received');
+                        playMessageSound();
+                    }, 1000);
+                }, message.delay);
+            });
+        }
+        
+        // Add message to chat
+        function addMessage(text, type) {
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message');
+            messageElement.classList.add(type);
+            
+            messageElement.innerHTML = `
+                ${text}
+                <div class="message-time">
+                    ${getCurrentTime()}
+                    ${type === 'sent' ? '<i class="fas fa-check-double" style="color: #4CAF50;"></i>' : ''}
+                </div>
+            `;
+            
+            chatMessages.appendChild(messageElement);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // Show typing indicator
+        function showTypingIndicator(delay) {
+            setTimeout(() => {
+                const typingElement = document.createElement('div');
+                typingElement.classList.add('typing-indicator');
+                typingElement.innerHTML = `
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                `;
+                
+                chatMessages.appendChild(typingElement);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+                
+                setTimeout(() => {
+                    typingElement.remove();
+                }, 900);
+            }, delay);
+        }
+        
+        // Play message notification sound
+        function playMessageSound() {
+            messageSound.currentTime = 0;
+            messageSound.play().catch(e => console.log("Message sound play failed:", e));
+        }
+        
+        // Play ringtone sound
+        function playRingtone() {
+            ringtoneSound.currentTime = 0;
+            ringtoneSound.play().catch(e => console.log("Ringtone play failed:", e));
+        }
+        
+        // Get current time
+        function getCurrentTime() {
+            const now = new Date();
+            let hours = now.getHours();
+            let minutes = now.getMinutes();
+            const ampm = hours >= 12 ? 'PM' : 'AM';
+            
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            
+            return `${hours}:${minutes} ${ampm}`;
+        }
+        
+        // Send message function
+        function sendMessage() {
+            const text = messageInput.value.trim();
+            if (text) {
+                addMessage(text, 'sent');
+                messageInput.value = '';
+            }
+        }
+        
+        // Show recharge popup
+        function showRechargePopup() {
+            rechargePopup.style.display = 'flex';
+            // Hide other screens
+            frontPage.style.display = 'none';
+            chatPage.style.display = 'none';
+            videoCallContainer.style.display = 'none';
+        }
+        
+        // Hide recharge popup
+        function hideRechargePopup() {
+            rechargePopup.style.display = 'none';
+            // Show previous screen
+            if (chatPage.style.display === 'none' && frontPage.style.display === 'none') {
+                chatPage.style.display = 'block';
+            }
+        }
+        
+        // Redirect to payment page
+        function redirectToPayment() {
+            // In a real app, this would redirect to a payment gateway
+            alert("Redirecting to payment page...");
+            hideRechargePopup();
+        }
+        
+        // Initiate video call from chat
+        function initiateVideoCall() {
+            showRechargePopup();
+        }
+        
+        // Initiate voice call from chat
+        function initiateVoiceCall() {
+            showRechargePopup();
+        }
+        
+        // Initiate call from profile list
+        function initiateCallFromList(imgUrl, name) {
+            currentGirl = girlsData.find(g => g.name === name);
+            showRechargePopup();
+        }
+        
+        // Answer call
+        function answerCall() {
+            showRechargePopup();
+        }
+        
+        // Decline call
+        function declineCall() {
+            ringtoneSound.pause();
+            callEnded.style.display = 'block';
+            videoCallStatus.textContent = "Call declined";
+            
+            // Close call screen after 2 seconds
+            setTimeout(() => {
+                videoCallContainer.style.display = 'none';
+                chatPage.style.display = 'block';
+            }, 2000);
+        }
+        
+        // Initialize the app
+        window.onload = function() {
+            initializeProfiles();
+            
+            // Event listeners
+            messageInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+            
+            // Preload sounds
+            messageSound.load();
+            ringtoneSound.load();
+            
+            // Close popup when clicking outside content
+            rechargePopup.addEventListener('click', function(e) {
+                if(e.target === this) {
+                    hideRechargePopup();
+                }
+            });
+        };
+		
+		
+    </script>
+</body>
+
+<!-- Mirrored from hostelgirl.info/sex2 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Sep 2025 20:03:32 GMT -->
+</html>
