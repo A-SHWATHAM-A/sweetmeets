@@ -1,0 +1,40 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 09 Sep 2025 14:30:04 at https://gayatri.services/gmeet/girls.php +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://gayatri.services/gmeet/girls.php -O1 "C:\My Web Sites\meta ads" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:30:20	Warning: 	Link https://gayatri.services/gmeet/sexy_girls.php not scanned (follow robots meta tag)
+14:30:32	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/images/pattern1.png (from https://gayatri.services/gmeet/assets/css/style.css)
+14:30:32	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/images/bg-shape-dark.png (from https://gayatri.services/gmeet/assets/css/style.css)
+14:30:32	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/images/down-white.svg (from https://gayatri.services/gmeet/assets/css/style.css)
+14:30:32	Error: 	"Forbidden" (403) at link s3-us-west-2.amazonaws.com/s.cdpn.io/142996/profile/profile-512_5.jpg (from https://gayatri.services/gmeet/assets/css/style.css)
+14:30:32	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/images/welcome/media/demo/vector.png (from https://gayatri.services/gmeet/assets/css/style.css)
+14:30:32	Error: 	"Not Found" (404) at link https://samedate.online/whtsap/css/sweetalert2.min.css (from https://gayatri.services/gmeet/profile/1)
+14:30:32	Error: 	"Not Found" (404) at link https://samedate.online/gmeet/200w.gif (from https://gayatri.services/gmeet/profile/1)
+14:30:32	Error: 	"Not Found" (404) at link https://samedate.online/whtsap/js/sweetalert2.js (from https://gayatri.services/gmeet/profile/1)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/fontawesome/webfonts/fa-brands-400.woff2 (from https://gayatri.services/gmeet/assets/icons/fontawesome/css/all.min.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/fontawesome/webfonts/fa-brands-400.ttf (from https://gayatri.services/gmeet/assets/icons/fontawesome/css/all.min.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/fontawesome/webfonts/fa-regular-400.woff2 (from https://gayatri.services/gmeet/assets/icons/fontawesome/css/all.min.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/fontawesome/webfonts/fa-regular-400.ttf (from https://gayatri.services/gmeet/assets/icons/fontawesome/css/all.min.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/fontawesome/webfonts/fa-v4compatibility.woff2 (from https://gayatri.services/gmeet/assets/icons/fontawesome/css/all.min.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/fontawesome/webfonts/fa-v4compatibility.ttf (from https://gayatri.services/gmeet/assets/icons/fontawesome/css/all.min.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/feather/fonts/feather.eot?t=1525787366991 (from https://gayatri.services/gmeet/assets/icons/feather/css/iconfont.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/feather/fonts/feather.svg?t=1525787366991 (from https://gayatri.services/gmeet/assets/icons/feather/css/iconfont.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/flaticon/font/flaticon_mycollection.eot?68b4b4e4285275fa79749a8c31ae0447 (from https://gayatri.services/gmeet/assets/icons/flaticon/font/flaticon.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/flaticon/font/flaticon_mycollection.svg?68b4b4e4285275fa79749a8c31ae0447 (from https://gayatri.services/gmeet/assets/icons/flaticon/font/flaticon.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.ttf?ca68c5aa57933921af049545a26df9d9 (from https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.woff?ca68c5aa57933921af049545a26df9d9 (from https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.woff2?ca68c5aa57933921af049545a26df9d9 (from https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.eot?ca68c5aa57933921af049545a26df9d9 (from https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.svg?ca68c5aa57933921af049545a26df9d9 (from https://gayatri.services/gmeet/assets/icons/flaticon1/font/flaticon_flaticon1.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/themify-icons/fonts/themify9f24.eot?-fvbane (from https://gayatri.services/gmeet/assets/icons/themify-icons/css/themify-icons.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/themify-icons/fonts/themifyd41d.eot? (from https://gayatri.services/gmeet/assets/icons/themify-icons/css/themify-icons.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/themify-icons/fonts/themify.woff (from https://gayatri.services/gmeet/assets/icons/themify-icons/css/themify-icons.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/themify-icons/fonts/themify.ttf (from https://gayatri.services/gmeet/assets/icons/themify-icons/css/themify-icons.css)
+14:30:33	Error: 	"Not Found" (404) at link https://gayatri.services/gmeet/assets/icons/themify-icons/fonts/themify9f24.svg?-fvbane (from https://gayatri.services/gmeet/assets/icons/themify-icons/css/themify-icons.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 32 seconds : 102 links scanned, 73 files written (2636210 bytes overall) [1699598 bytes received at 53112 bytes/sec], 1385781 bytes transferred using HTTP compression in 69 files, ratio 25%, 24.6 requests per connection
+(28 errors, 1 warnings, 0 messages)
